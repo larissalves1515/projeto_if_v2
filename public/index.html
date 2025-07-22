@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Gerenciar Itens</title>
+  <link rel="stylesheet" href="estilo.css" />
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+</style>
+</head>
+<body>
+  <div class="conteudo">
+  <div class="container">
+
+  <div class="esquerda">
+  <h1>Itens da Lista</h1>
+
+  <button id="carregar-btn">Carregar Itens</button>
+  <button id="voltar-btn">Voltar</button>
+  <ul id="lista-itens"></ul>
+  </div>
+  
+  
+  <div class="direita">
+  <h2>Adicionar Novo Item</h2>
+
+  <form id="form-criar-item">
+  <input type="number" id="id" placeholder="ID do item" required />
+  <input type="text" id="nome" placeholder="Nome do item" required />
+
+  <button type="submit">Adicionar</button>
+  </form>
+
+  </div>
+  </div>
+
+</div>  
+
+  <script src="script.js"></script>
+</body>
+</html>
